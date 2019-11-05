@@ -16,8 +16,7 @@
             <div id="d">4</div>
             <div id="e">5</div>
             <div id="f">6</div>        
-            <div id="g">7</div>
-            <div id="h">8</div> 
+         
         </div>
     </body>
 </html>

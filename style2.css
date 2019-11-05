@@ -4,7 +4,7 @@ html{
 }
 #content div{
    border: 1px solid #986;
-   background-color: orange;
+   background-color: #333;
    padding: 10px;
    border-radius: 5px;
 }
@@ -17,10 +17,8 @@ html{
    display: grid;
 
    grid-template: 
-                    "a b c" 100px
-                    "d e f" 100px
-                    "d h h" 50px
-                    "g g g" 100px
+                    "a b c" minmax(50px, auto)
+                    "d e f" minmax(50px, auto)   
                     / 1fr 1fr 100px;
 
    grid-gap: 10px;
@@ -43,10 +41,4 @@ html{
 }
 #f{
     grid-area: f;
-}
-#g{
-    grid-area: g;
-}
-#h{
-    grid-area: h;
 }
